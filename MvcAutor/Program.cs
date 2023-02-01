@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using MvcAutor.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<MvcAutorContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MvcAutorContext") ?? throw new InvalidOperationException("Connection string 'MvcAutorContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -18660,8 +18660,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\user-03\\Documents\\codes\\MVC-Demo\\MvcAutor\\Views\\HelloWorld\\Index.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\user-03\\Documents\\codes\\MVC-Demo\\MvcAutor\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\user-03\\Documents\\codes\\MVC-Demo\\MvcAutor\\Views\\HelloWorld\\Welcome.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
       "FileKind": "mvc"
     },
     {
